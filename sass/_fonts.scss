@@ -1,0 +1,48 @@
+$principalTitle: (
+  null  : 15px,
+  576px : 16px,
+  768px : 17px,
+  992px : 18px,
+  1024px: 18px
+);
+
+$subTitle: (
+  null  : 12px,
+  576px : 13px,
+  768px : 14px,
+  992px : 15px,
+  1024px: 15px,
+);
+
+$nomalText: (
+  null  : 12px,
+  576px : 12px,
+  768px : 12px,
+  992px : 12px,
+  1024px: 12px,
+);
+
+$textGrid: (
+  null  : 12px,
+  576px : 12px,
+  768px : 12px,
+  992px : 12px,
+  1024px: 12px,
+);
+
+@mixin font-size($fs-map) {
+  @each $fs-breakpoint, $fs-font-size in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @media screen and (min-width: $fs-breakpoint) {
+        font-size: $fs-font-size;
+      }
+    }
+  }
+}
+
+/*====Modo de uso
+	@include font-size($fontMenu);
+=================*/

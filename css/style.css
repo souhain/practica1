@@ -1,0 +1,124 @@
+/*====Modo de uso
+	@include font-size($fontMenu);
+=================*/
+header img {
+  width: 40%;
+  margin: 20px 0; }
+
+header .navbar {
+  background-color: #000;
+  color: #fff; }
+  header .navbar a {
+    color: #fff !important; }
+
+body {
+  background-image: url("../img/bg-home.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#titulo {
+  margin: 30px 0;
+  color: #000; }
+  #titulo .containerinfo1 h2 {
+    font-size: 15px; }
+    @media screen and (min-width: 576px) {
+      #titulo .containerinfo1 h2 {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      #titulo .containerinfo1 h2 {
+        font-size: 17px; } }
+    @media screen and (min-width: 992px) {
+      #titulo .containerinfo1 h2 {
+        font-size: 18px; } }
+    @media screen and (min-width: 1024px) {
+      #titulo .containerinfo1 h2 {
+        font-size: 18px; } }
+  #titulo .containerinfo1 hr {
+    color: #000;
+    border-top: 3px solid; }
+  #titulo .containerinfo2 {
+    margin-top: 50px; }
+    #titulo .containerinfo2 h2 {
+      font-size: 12px; }
+      @media screen and (min-width: 576px) {
+        #titulo .containerinfo2 h2 {
+          font-size: 13px; } }
+      @media screen and (min-width: 768px) {
+        #titulo .containerinfo2 h2 {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        #titulo .containerinfo2 h2 {
+          font-size: 15px; } }
+      @media screen and (min-width: 1024px) {
+        #titulo .containerinfo2 h2 {
+          font-size: 15px; } }
+
+#grid .containerGrid {
+  text-align: right; }
+
+#laboratorio {
+  margin-bottom: 100px;
+  /*===============*/
+  /*==============*/
+  /*===Modo de uso===
+	@include breakpoint(md-max) {}
+  ==================*/ }
+  @media (max-width: 767px) {
+    #laboratorio {
+      margin-bottom: 10px;
+      margin-top: 20px; } }
+  #laboratorio p {
+    padding-right: 40%;
+    /*===============*/
+    /*==============*/
+    /*===Modo de uso===
+	@include breakpoint(md-max) {}
+  ==================*/ }
+    @media (max-width: 767px) {
+      #laboratorio p {
+        padding-right: 0;
+        text-align: center; } }
+  #laboratorio h2 {
+    /*===============*/
+    /*==============*/
+    /*===Modo de uso===
+	@include breakpoint(md-max) {}
+  ==================*/ }
+    @media (max-width: 767px) {
+      #laboratorio h2 {
+        text-align: center; } }
+
+#ecologico h2 {
+  text-align: right;
+  /*===============*/
+  /*==============*/
+  /*===Modo de uso===
+	@include breakpoint(md-max) {}
+  ==================*/ }
+  @media (max-width: 767px) {
+    #ecologico h2 {
+      text-align: center; } }
+
+#ecologico p {
+  text-align: right;
+  padding-left: 40%;
+  /*===============*/
+  /*==============*/
+  /*===Modo de uso===
+	@include breakpoint(md-max) {}
+  ==================*/ }
+  @media (max-width: 767px) {
+    #ecologico p {
+      text-align: center;
+      padding-left: 0; } }
+
+footer {
+  background-color: #000; }
+  footer img {
+    margin: 20px 0;
+    width: 20%; }
+  footer p {
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
